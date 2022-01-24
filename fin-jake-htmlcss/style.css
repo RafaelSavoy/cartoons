@@ -1,0 +1,100 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #F18840;
+}
+
+.conteudo{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	flex-direction: row;
+	top: 170px;
+	gap: 20px;
+}
+
+#fin{
+	width: 150px;
+}
+
+#fin-orelhas{
+	display: flex;
+	justify-content: space-between;
+}
+
+.fin-orelha{
+	height: 30px;
+	width: 30px;
+	background-color: white;
+}
+
+#fin-cabeca-dentro{
+	height: 80px;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#fin-cara{
+	width: 80%;
+	height: 70%;
+	background-color: #F2E2CE;
+	
+}
+
+#fin-corpo{
+	width: 100%;
+	height: 80px;
+	background-color: #21AFBF;
+}
+
+#fin-pe{
+	width: 100%;
+	height: 50px;
+	background-color: #1C71A6;
+}
+
+#jake{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 95px;
+	width: 120px;
+	height: 145px;
+	background-color: #F2C029;
+}
+
+#jake-nariz{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	top: 40px;
+	width: 50%;
+	height: 30px;
+	background-color: #DFB818;
+}
+
+#jake-nariz-bola-preta{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	top: 50%;
+	width: 15px;
+	height: 10px;
+	background-color: black;
+}
+
+#jake-nariz-bola-preta::after{
+	content: '';
+	position: absolute;
+	width: 15px;
+	height: 10px;
+	background-color: #F2C029;
+	transform: translateY(8px);
+}
